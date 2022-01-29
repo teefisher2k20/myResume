@@ -1,28 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Resume</title>
-<<<<<<< HEAD
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@100;400;700&family=Readex+Pro:wght@400;500&>
-        <link rel=" stylesheet" href="styles.css">
-    </head>
-
-    <body>
-        <main class="main-content">
-            <section class="left-section"></section>
-            <section class="right-section"></section>
-        </main>
-=======
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-            integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="./Resume_files/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="./Resume_files/styles.css">
     </head>
 
     <body>
@@ -30,7 +14,7 @@
             <div class="left_side">
                 <div class="profileText">
                     <div class="imgBx">
-                        <img src="images\headshot.jpg">
+                        <img src="./Resume_files/headshot.jpg">
                     </div>
                     <h2>Terrance Fisher<br><span>Software Engineer</span></h2>
                 </div>
@@ -83,7 +67,7 @@
                             <span class="text">Spring Boot</span>
                             <span class="percent">
                                 <div style="width: 75%;"></div>
-                        </li>
+                        </span></li>
                         <li>
                             <span class="text">Git</span>
                             <span class="percent">
@@ -94,22 +78,22 @@
                             <span class="text">Test driven development</span>
                             <span class="percent">
                                 <div style="width: 75%;"></div>
-                        </li>
+                        </span></li>
                         <li>
                             <span class="text">Model-view-controller</span>
                             <span class="percent">
                                 <div style="width: 90%;"></div>
-                        </li>
+                        </span></li>
                         <li>
                             <span class="text">Object-oriented programming</span>
                             <span class="percent">
                                 <div style="width: 83%;"></div>
-                        </li>
+                        </span></li>
                         <li>
                             <span class="text">MySQL</span>
                             <span class="percent">
                                 <div style="width: 80%;"></div>
-                        </li>
+                        </span></li>
                     </ul>
                 </div>
             </div>
@@ -222,7 +206,44 @@
                     </div>
 
                 </div>
->>>>>>> 5fef46ea9e2859b6022dc6b3ff6a6ee09f2acaf2
-    </body>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+
+</div></div></body></html>
